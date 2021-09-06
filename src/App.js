@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
@@ -22,6 +23,19 @@ function App() {
     }
   ]);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  function setSection() {
+    let activeSection = currentCategory.name;
+    switch (activeSection) {
+      case "Contact":
+        return <Contact></Contact>
+      case "Portfolio":
+        return <Portfolio></Portfolio>
+      case "Resume":
+        return <Resume></Resume>
+      default: 
+      return <About></About>
+    }
+  }
 
   return (
     <div>
@@ -31,11 +45,8 @@ function App() {
         currentCategory={currentCategory}
       ></Nav>
       <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Contact></Contact>
-        <Resume></Resume>
-      </main>
+        {setSection()}
+      </main>      
     </div>
   );
 }

@@ -13,7 +13,9 @@ function About() {
                     Just a little bit about me. Placeholder text for now.
                 </textarea>
             </div>
+            
         </section>
+        
     );
 }
 
