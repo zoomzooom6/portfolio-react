@@ -47,6 +47,7 @@ function App() {
       <main>
         {setSection()}
       </main>      
+      <Footer />
     </div>
   );
 }

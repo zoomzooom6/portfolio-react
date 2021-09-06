@@ -11,10 +11,6 @@ function Nav(props) {
           document.title = "Tony Huang - " + currentCategory.name;
       }, [currentCategory]);
 
-    function categorySelected(name) {
-        console.log(`${name} clicked`)
-    }
-
     return (
         <header>
             <h2 style={{ margin: "10px", textAlign: "left" }}>

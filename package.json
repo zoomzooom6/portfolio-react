@@ -2,6 +2,7 @@
   "name": "tony-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zoomzooom6.github.io/portfolio-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +37,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Week 20 Challenge - A portfolio page designed using React to showcase my past projects and their deployed links.",
+  "main": "index.js",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoomzooom6/portfolio-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoomzooom6/portfolio-react/issues"
+  },
+  "homepage": "https://github.com/zoomzooom6/portfolio-react#readme"
 }

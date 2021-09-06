@@ -29,6 +29,7 @@ function Contact() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+        setErrorMessage('Your message has been sent. Thank you!')
     }
 
     return (
@@ -52,7 +53,7 @@ function Contact() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button type="submit" onClick={handleSubmit}>Submit</button>
             </form>
             
         </section>
