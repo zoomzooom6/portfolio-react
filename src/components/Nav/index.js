@@ -5,20 +5,20 @@ function Nav(props) {
         categories = [],
         setCurrentCategory,
         currentCategory,
-      } = props;
+    } = props;
 
-      useEffect(()=> {
-          document.title = "Tony Huang - " + currentCategory.name;
-      }, [currentCategory]);
+    useEffect(() => {
+        document.title = "Tony Huang - " + currentCategory.name;
+    }, [currentCategory]);
 
     return (
         <header>
-            <h2 style={{ margin: "10px", textAlign: "left" }}>
-                <a href="/">
-                    <span>Tony Huang</span>
-                </a>
-            </h2>
-            <nav>
+            <nav className="flex-row">
+                <h2>
+                    <a href="/">
+                        <span>Tony Huang</span>
+                    </a>
+                </h2>
                 <ul className="flex-row">
                     {categories.map((category) => (
                         <li

@@ -5,10 +5,12 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #52f852;
+  --primary: #0fa00a;
+  --primary-light: #0ffc07;
   --secondary: #5cc1f0;
-  --tertiary: #b10455;
-  --light: #fafafa;
+  --tertiary: #190972;
+  --tertiary-light: #3723aa;
+  --light: #e7e4e4;
   --dark: #000000;
   --darker: #111111;
   --error: rgb(228, 224, 1);
@@ -34,7 +36,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: var(--tertiary-light);
   color: var(--light);
   font-family: 'Inconsolata', monospace;
 
@@ -58,6 +60,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  margin: 15px;
 }
 
 h3 {
@@ -89,11 +92,16 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  
+  color: var(--primary-light);
 }
 
 header {
-  background: var(--dark);
+  background: var(--tertiary);
+}
+
+footer {
+  height: 50px;
 }
 
 header a {
@@ -159,6 +167,10 @@ nav  li {
   cursor: pointer;
 }
 
+nav li:hover {
+  color: var(--secondary);
+}
+
 textarea {
 	width: 600px;
 	height: 120px;
@@ -171,6 +183,12 @@ textarea {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  height: 100%;
+}
+
+.container a {
+  height: 100%;
+  justify-content: space-around;
 }
 
 .flex-row {
@@ -184,6 +202,11 @@ textarea {
 
 .flex-end {
   justify-content: flex-end;
+}
+
+.project-list {
+  display:inline;
+  width: auto;
 }
 
 .mx-1 {
@@ -318,12 +341,4 @@ a {
 
 .min-100-vw {
   min-width: 100vw;
-}
-
-/* LAYOUT */
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }

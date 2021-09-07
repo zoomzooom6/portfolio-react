@@ -48,13 +48,16 @@ function Portfolio() {
 
     return (
         <section>
+            <div>
+                <h1>Projects Portfolio</h1>
+            </div>
             <ul>
                 {gallery.map((portfolio) => (
-                    <li>
+                    <li className="project-list">
                         <a href={portfolio.git} target="_blank" rel="noreferrer"><h3>{portfolio.name}</h3></a>
                         <img src={portfolio.src} style={{ width: "25%" }} alt={portfolio.name} />
                         <div>
-                            <a href={portfolio.live} target="_blank" rel="noreferrer">Webpage</a>
+                            <a href={portfolio.live} target="_blank" rel="noreferrer">Live Webpage</a>
                         </div>
                     </li>
                 ))}

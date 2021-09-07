@@ -3,8 +3,9 @@ import React from 'react';
 function Resume() {
     return (
         <section>
-            <h3>Download my <a href='https://drive.google.com/file/d/19fiP8DLc2sCzUdBivEgkhXhJH9E5tqAg/view?usp=sharing'>resume</a></h3>
-            <h3>My proficiences</h3>
+            <h5>Download my <a href='https://drive.google.com/file/d/19fiP8DLc2sCzUdBivEgkhXhJH9E5tqAg/view?usp=sharing'>resume</a></h5>
+            
+            <h3><strong>My proficiences</strong></h3>
             <ul>
                 <li>
                     <p>HTML</p>
@@ -29,9 +30,6 @@ function Resume() {
                 </li>
                 <li>
                     <p>noSQL, MongoDB</p>
-                </li>
-                <li>
-                    <p>README Generation</p>
                 </li>
             </ul>
         </section>
