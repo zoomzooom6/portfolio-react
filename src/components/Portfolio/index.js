@@ -5,6 +5,7 @@ import weatherDash from '../../assets/images/WeatherDashboard.jpg';
 import windShop from '../../assets/images/WindowShopper.jpg';
 import workDay from '../../assets/images/WorkDayScheduler.jpg';
 import readGen from '../../assets/images/ReadmeGenerator.jpg';
+import eatDeal from '../../assets/images/Project3.jpg'
 
 function Portfolio() {
     const gallery = [
@@ -43,6 +44,12 @@ function Portfolio() {
             src: windShop,
             git: "https://github.com/Gr0upFour/projectTwo",
             live: "https://project2-window-shopper.herokuapp.com/"
+        },
+        {
+            name: "Let's Eat A Deal",
+            src: eatDeal,
+            git: "https://github.com/zoomzooom6/project-three-fullstack",
+            live: "https://lets-eat-a-deal.herokuapp.com/"
         }
     ]
 
