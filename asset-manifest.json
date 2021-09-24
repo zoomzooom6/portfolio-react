@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.c586cb2b.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.073e8793.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.073e8793.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.573d1b55.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.573d1b55.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.36a99cce.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.36a99cce.js.map",
     "static/js/2.0abb4a33.chunk.js": "/portfolio-react/static/js/2.0abb4a33.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/Avatar.9ff9b95d.jpg": "/portfolio-react/static/media/Avatar.9ff9b95d.jpg",
     "static/media/CodeQuiz.9151ab9c.jpg": "/portfolio-react/static/media/CodeQuiz.9151ab9c.jpg",
     "static/media/MealThyme.cd3731cb.jpg": "/portfolio-react/static/media/MealThyme.cd3731cb.jpg",
+    "static/media/Project3.8e0d07d2.jpg": "/portfolio-react/static/media/Project3.8e0d07d2.jpg",
     "static/media/ReadmeGenerator.a945fa86.jpg": "/portfolio-react/static/media/ReadmeGenerator.a945fa86.jpg",
     "static/media/WeatherDashboard.4d57e624.jpg": "/portfolio-react/static/media/WeatherDashboard.4d57e624.jpg",
     "static/media/WindowShopper.4dcd64ca.jpg": "/portfolio-react/static/media/WindowShopper.4dcd64ca.jpg",
@@ -24,6 +25,6 @@
     "static/js/runtime-main.36a99cce.js",
     "static/js/2.0abb4a33.chunk.js",
     "static/css/main.c586cb2b.chunk.css",
-    "static/js/main.073e8793.chunk.js"
+    "static/js/main.573d1b55.chunk.js"
   ]
 }
