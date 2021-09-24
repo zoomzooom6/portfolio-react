@@ -10,6 +10,24 @@ import eatDeal from '../../assets/images/Project3.jpg'
 function Portfolio() {
     const gallery = [
         {
+            name: "Let's Eat A Deal",
+            src: eatDeal,
+            git: "https://github.com/zoomzooom6/project-three-fullstack",
+            live: "https://lets-eat-a-deal.herokuapp.com/"
+        },
+        {
+            name: "Window Shopper",
+            src: windShop,
+            git: "https://github.com/Gr0upFour/projectTwo",
+            live: "https://project2-window-shopper.herokuapp.com/"
+        },
+        {
+            name: "Meal Thyme",
+            src: mealThyme,
+            git: "https://github.com/uoftgroup7/mealThyme/",
+            live: "https://uoftgroup7.github.io/mealThyme/"
+        },
+        {
             name: "Weather Dashboard",
             src: weatherDash,
             git: "https://github.com/zoomzooom6/Weather_Dashboard",
@@ -32,24 +50,6 @@ function Portfolio() {
             src: readGen,
             git: "https://github.com/zoomzooom6/README_Generator",
             live: "https://github.com/zoomzooom6/README_Generator"
-        },
-        {
-            name: "Meal Thyme",
-            src: mealThyme,
-            git: "https://github.com/uoftgroup7/mealThyme/",
-            live: "https://uoftgroup7.github.io/mealThyme/"
-        },
-        {
-            name: "Window Shopper",
-            src: windShop,
-            git: "https://github.com/Gr0upFour/projectTwo",
-            live: "https://project2-window-shopper.herokuapp.com/"
-        },
-        {
-            name: "Let's Eat A Deal",
-            src: eatDeal,
-            git: "https://github.com/zoomzooom6/project-three-fullstack",
-            live: "https://lets-eat-a-deal.herokuapp.com/"
         }
     ]
 
